@@ -3,7 +3,7 @@
 'use strict'
 
 const assert = require('assert')
-const api = require('ripple-address-codec')
+const api = require('brt-address-codec')
 
 function toHex(bytes) {
   return Buffer.from(bytes).toString('hex').toUpperCase()
@@ -13,7 +13,7 @@ function toBytes(hex) {
   return Buffer.from(hex, 'hex').toJSON().data
 }
 
-describe('ripple-address-codec', function() {
+describe('brt-address-codec', function() {
 
   describe('encodeSeed', function() {
 

@@ -1,4 +1,4 @@
-# ripple-keypairs Release History
+# brt-keypairs Release History
 
 ## 1.0.1 (2020-05-12)
 
@@ -14,7 +14,7 @@
 * Add yarn.lock
 * Export members and add default export
 * Internal
-  * Use published ripple-address-codec (#58)
+  * Use published brt-address-codec (#58)
   * Replace TSLint with ESLint + Prettier (#71)
   * Add type (#74)
   * Remove unused code (#81)
@@ -34,4 +34,4 @@
 
 ## 0.10.1 (2017-11-10)
 
-* [Verify that generated keypairs can correctly sign a message](https://github.com/ripple/ripple-keypairs/pull/22)
+* [Verify that generated keypairs can correctly sign a message](https://github.com/ripple/brt-keypairs/pull/22)

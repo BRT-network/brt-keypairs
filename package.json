@@ -1,7 +1,7 @@
 {
-  "name": "ripple-keypairs",
-  "version": "1.0.1",
-  "description": "Cryptographic key pairs for the XRP Ledger",
+  "name": "brt-keypairs",
+  "version": "0.1.0",
+  "description": "Cryptographic key pairs for the BRT Ledger",
   "files": [
     "dist/*"
   ],
@@ -10,11 +10,11 @@
     "test": "test"
   },
   "dependencies": {
-    "bn.js": "^5.1.1",
-    "brorand": "^1.0.5",
-    "elliptic": "^6.5.2",
-    "hash.js": "^1.0.3",
-    "ripple-address-codec": "^4.0.0"
+    "bn.js": "^5.1.2",
+    "brorand": "^1.1.0",
+    "elliptic": "^6.5.3",
+    "hash.js": "^1.1.7",
+    "brt-address-codec": "^0.1.0"
   },
   "devDependencies": {
     "@types/mocha": "^7.0.1",
@@ -40,12 +40,12 @@
     "compile": "tsc",
     "test": "tsc && nyc mocha",
     "lint": "eslint . --ext .ts --fix",
-    "prepublish": "yarn lint && yarn test",
+    "prepublish": "",
     "coverage": "nyc --reporter=lcov mocha && codecov"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ripple/ripple-keypairs.git"
+    "url": "git://github.com/ripple/brt-keypairs.git"
   },
   "license": "ISC",
   "engines": {
